@@ -1,0 +1,14 @@
+.title {
+	text-transform: capitalize;
+	font-size: 20px;
+	color: var(--white);
+}
+.title__secondary {
+	text-transform: capitalize;
+	font-size: 20px;
+}
+.title__primary {
+	font-size: 20px;
+	font-family: 'Mirza', sans-serif;
+	line-height: 0.9em;
+}
