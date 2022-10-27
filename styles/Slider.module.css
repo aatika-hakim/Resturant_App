@@ -1,0 +1,62 @@
+ .slider {
+  position: relative;
+  height: 100px;
+  width: 850px;
+  display: flex;
+  background-color: rgba(236, 184, 184, 0.05);
+}
+.image {
+  border-radius: 10px;
+}
+.img{
+  height: 100px;
+  width: 150px;
+  background-color: gray;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.text {
+  display: flex;
+  margin: 10px 20px 0px;
+  flex-wrap: wrap;
+}
+
+.right_arrow {
+  right: 30px;
+} 
+.left_arrow{
+  left: 30px;
+}
+
+.left_arrow, .right_arrow {
+  height: 100px;
+  width: 30px;
+  top: 50%;
+  font-size: 3px;
+  padding: 5px;
+  background-color: white;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+}
+.card{
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  width: 400px;
+  font-size: 13px;
+  text-align: left;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+} 

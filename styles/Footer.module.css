@@ -1,0 +1,44 @@
+.map{
+    height: 500px;
+    width: 100%;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0px 20px;
+}
+.div1, .div2, .div3, .div4{
+    width: 350px;
+    margin: 0px 40px 0px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+}
+.div1{
+    margin-left: 120px;
+}
+
+.btn{
+    background-color: var(--color);
+	text-align: center;
+	color: var(--white);
+	border: 1px var(--color);
+    margin-top: 20px;
+    font-size: 18px;
+}
+.input{
+    font-size: 15px;
+    background: var(--secondary-color);
+    color: var(--text-color);
+    border: 1px var(--secondary-color);
+    text-indent: 10px;
+}
+.input, .btn{
+    margin-top: 20px;
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+}
+.copyright{
+
+}
