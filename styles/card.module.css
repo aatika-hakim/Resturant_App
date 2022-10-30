@@ -1,0 +1,14 @@
+.card{
+    display: flex;
+    margin: 20px 0px 20px ;
+}
+.img{
+    border-radius: 10px;
+}
+.text{
+    margin: 0px 0px 0px 20px;
+}
+.container{
+    height: 80px;
+    width: 80px;
+}

@@ -23,6 +23,25 @@ export const data = [
 
 export const info = [
   {
-    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    paragraph:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  },
+];
+/* icons */
+import { FaGithub, FaInstagram, FaTwitter, FaFacebook } from "react-icons/fa";
+
+export const social = [
+  {
+    icon: <FaFacebook />,
+    href: "https://www.facebook.com/aatikah.h.9",
+  },
+  {
+    icon: <FaTwitter />,
+    href: "https://github.com/aatika-hakim",
+  },
+  {
+    icon: <FaInstagram />,
+    href: "https://www.linkedin.com/in/aatika-hakim/",
   },
 ];

@@ -1,8 +1,8 @@
 import React from "react";
-import Title from "./Title";
+import { social } from "./Data";
 import Text from "./Text";
 import styles from "../styles/Footer.module.css";
-import Link from "next/link";
+import { Card } from "./card";
 
 const Footer = () => {
   return (
@@ -16,38 +16,51 @@ const Footer = () => {
             industry. Lorem Ipsum has been the industry standard dummy text ever
             since the 1500s.
           </Text>
-          <div className={styles.socials}></div>
+          <div className={styles.socials}>
+            {social.map((item, index) => {
+              return (
+                <Text className={styles.icons} key={index}>
+                  <a
+                    className={styles.link}
+                    rel="noreferrer"
+                    target="_blank"
+                    href={item.href}
+                  >
+                    {item.icon}
+                  </a>
+                </Text>
+              );
+            })}
+          </div>
         </div>
         <div className={styles.div2}>
           <h2>WIDGETS 2</h2>
-          <Text>
-            <table>
-              <tbody>
-                <td>
-                  <tr>Monday</tr>
-                  <tr>Tuesday</tr>
-                  <tr>Wednesday</tr>
-                  <tr>Thursday</tr>
-                  <tr>Friday</tr>
-                  <tr>Saturday</tr>
-                  <tr>Sunday</tr>
-                </td>
-                <td>
-                  <tr>5pm- 12pm</tr>
-                  <tr>5pm- 12pm</tr>
-                  <tr>5pm- 12pm</tr>
-                  <tr>5pm- 12pm</tr>
-                  <tr>5pm- 12pm</tr>
-                  <tr>5pm- 12pm</tr>
-                  <tr>5pm- 12pm</tr>
-                </td>
-              </tbody>
-            </table>
-          </Text>
+          <table className={styles.table}>
+            <tbody className={styles.tbody}>
+              <td>
+                <tr>Monday</tr>
+                <tr>Tuesday</tr>
+                <tr>Wednesday</tr>
+                <tr>Thursday</tr>
+                <tr>Friday</tr>
+                <tr>Saturday</tr>
+                <tr>Sunday</tr>
+              </td>
+              <td>
+                <tr>5pm- 12pm</tr>
+                <tr>5pm- 12pm</tr>
+                <tr>5pm- 12pm</tr>
+                <tr>5pm- 12pm</tr>
+                <tr>5pm- 12pm</tr>
+                <tr>5pm- 12pm</tr>
+                <tr>5pm- 12pm</tr>
+              </td>
+            </tbody>
+          </table>
         </div>
         <div className={styles.div3}>
           <h2>WIDGETS 3</h2>
-          <Text></Text>
+          <Card />
         </div>
         <div className={styles.div4}>
           <h2>WIDGETS 4</h2>

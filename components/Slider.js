@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { data } from "./Data";
 import Image from "next/image";
-import { FaCaretRight, FaCaretLeft } from "react-icons/fa";
+import { FaCaretRight, FaCaretLeft, FaArrowRight } from "react-icons/fa";
 import Text from "./Text";
 import styles from "../styles/Slider.module.css";
 
@@ -36,7 +36,7 @@ const Slider = ({ slides }) => {
                   <Image
                     src={slide.image}
                     height={100}
-                    width={150}
+                    width={120}
                     layout="fixed"
                     alt="meal images"
                     className={styles.image}
@@ -51,7 +51,7 @@ const Slider = ({ slides }) => {
                   <Image
                     src={slide.image}
                     height={100}
-                    width={150}
+                    width={120}
                     layout="fixed"
                     alt="meal images"
                     className={styles.image}

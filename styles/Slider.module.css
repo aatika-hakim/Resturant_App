@@ -1,14 +1,15 @@
- .slider {
-  position: relative;
+.slider {
   height: 100px;
   width: 850px;
   display: flex;
   background-color: rgba(236, 184, 184, 0.05);
 }
+
 .image {
   border-radius: 10px;
 }
-.img{
+
+.img {
   height: 100px;
   width: 150px;
   background-color: gray;
@@ -25,12 +26,14 @@
 
 .right_arrow {
   right: 30px;
-} 
-.left_arrow{
+}
+
+.left_arrow {
   left: 30px;
 }
 
-.left_arrow, .right_arrow {
+.left_arrow,
+.right_arrow {
   height: 100px;
   width: 30px;
   top: 50%;
@@ -41,7 +44,8 @@
   z-index: 10;
   cursor: pointer;
 }
-.card{
+
+.card {
   display: flex;
   flex-direction: row;
   height: 100px;
@@ -59,4 +63,4 @@
   opacity: 1;
   transition-duration: 1s;
   transform: scale(1.08);
-} 
+}

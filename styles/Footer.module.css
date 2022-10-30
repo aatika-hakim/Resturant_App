@@ -1,44 +1,87 @@
-.map{
+.map {
     height: 500px;
     width: 100%;
 }
-.container{
+
+.container {
     display: flex;
     flex-wrap: wrap;
-    margin: 50px 0px 20px;
+    margin: 50px 30px 20px;
 }
-.div1, .div2, .div3, .div4{
+
+.div1,
+.div3,
+.div4 {
     width: 350px;
-    margin: 0px 40px 0px;
+    margin: 0px 30px 0px;
     text-align: justify;
     display: flex;
     flex-direction: column;
 }
-.div1{
-    margin-left: 120px;
+
+.socials {
+    display: flex;
+    flex-direction: row;
 }
 
-.btn{
+.icons {
+    color: var(--white);
+    display: flex;
+    flex-direction: row;
+    margin: 40px 30px 20px 0px;
+}
+
+.div2{
+    display: block;
+    flex-direction: column;
+    width: 350px;
+    margin: 0px 30px 0px;
+    text-align: justify;
+}
+
+.tbody{
+    display: flex;
+}
+.table {
+    font-size: 1.6rem;
+    color: var(--text-color);
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn {
     background-color: var(--color);
-	text-align: center;
-	color: var(--white);
-	border: 1px var(--color);
+    text-align: center;
+    color: var(--white);
+    border: 1px var(--color);
     margin-top: 20px;
     font-size: 18px;
 }
-.input{
+
+.input {
     font-size: 15px;
     background: var(--secondary-color);
     color: var(--text-color);
     border: 1px var(--secondary-color);
     text-indent: 10px;
 }
-.input, .btn{
+
+.input,
+.btn {
     margin-top: 20px;
     height: 40px;
     width: 250px;
     border-radius: 5px;
 }
-.copyright{
 
+.copyright {
+    background: var(--secondary-color);
+    padding: 10px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .table {
+        font-size: 1.4rem;
+    }
 }
