@@ -3,11 +3,11 @@ import { social } from "./Data";
 import Text from "./Text";
 import styles from "../styles/Footer.module.css";
 import { Card } from "./card";
+import Map from "./Map";
 
 const Footer = () => {
   return (
     <section className={styles.section}>
-      <div className={styles.map}></div>
       <div className={styles.container}>
         <div className={styles.div1}>
           <h2>WIDGETS 1</h2>
