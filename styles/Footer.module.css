@@ -1,17 +1,15 @@
-.section{
-    height: 100vh;
-}
+
 .container {
     display: flex;
     flex-wrap: wrap;
-    margin: 50px 30px 20px;
+    margin: 50px 30px 0px;
 }
 
 .div1,
 .div3,
 .div4 {
     width: 350px;
-    margin: 0px 30px 0px;
+    margin: 20px 30px 5px;
     text-align: justify;
     display: flex;
     flex-direction: column;
@@ -75,6 +73,7 @@
 .copyright {
     background: var(--secondary-color);
     padding: 10px;
+    margin-top: 100px;
     text-align: center;
 }
 
@@ -82,4 +81,9 @@
     .table {
         font-size: 1.4rem;
     }
+    .container{
+        margin-top: 20px;
+        height: fit-content;
+    }
+
 }

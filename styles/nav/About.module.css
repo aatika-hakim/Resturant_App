@@ -1,36 +1,27 @@
-/* @import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 
 
 .section {
-	min-height: 500vh;
+	height: 80vh;
 	align-items: center;
 	background-repeat: no-repeat;
-	background-size: contain;
-	object-fit: contain;
+	background-size: cover;
 	overflow: hidden;
 	background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 5)),
-		url('/images.svg');
+		url('/meat.svg');
 }
 .container{
 	font-size: 40px;
 	text-align: center;
-	margin: 400px 100px 0px;
 	line-height: 1;	
 }
-.Text{
-	color: white;
-	font-size: 22px;
-	font-style: italic;
-}
-.title{
-	margin: 5px 0px 20px;
-	font-family: 'Poppins';
-	font-weight: lighter;
-	font-size: 70px;
+
+.img{
+	clip-path: circle();
 }
 
 
 
 
 
- */
+

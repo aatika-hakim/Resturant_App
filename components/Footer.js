@@ -7,7 +7,7 @@ import Map from "./Map";
 
 const Footer = () => {
   return (
-    <section className={styles.section}>
+    <>
       <div className={styles.container}>
         <div className={styles.div1}>
           <h2>WIDGETS 1</h2>
@@ -83,7 +83,7 @@ const Footer = () => {
       <div className={styles.copyright}>
         <Text> 2022 ©️ All Rights Reserved | Privacy Policy</Text>
       </div>
-    </section>
+    </>
   );
 };
 

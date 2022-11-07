@@ -1,8 +1,4 @@
 import Head from "next/head";
-import Menu from "./menu";
-import Gallery from "./gallery";
-import About from "./about";
-import Contact from "./contact";
 import styles from "../styles/Home.module.css";
 import Feature from "../components/home/Feature";
 
@@ -15,10 +11,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Feature />
-      <Gallery />
-      <Menu />
-      <About />
-      <Contact />
     </div>
   );
 }

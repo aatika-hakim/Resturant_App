@@ -90,8 +90,8 @@ const Feature = () => {
         </div>
       </section>
       {/* section 4 */}
-      <section className={styles.section4}>
-        <div className={styles.container3}>
+      <section className={styles.section3}>
+        <div className={styles.container2}>
           <div className={styles.Img}>
             <Image src="/burger.svg" alt="img" height="300" width="700" />
           </div>
@@ -107,8 +107,6 @@ const Feature = () => {
           })}
         </div>
       </section>
-      {/* section 5 */}
-      <section></section>
     </div>
   );
 };
